@@ -1,0 +1,102 @@
+
+#Login {
+    padding-top: 20px;
+    width: 20%;
+    height: 200px;
+    position: absolute;
+    visibility: hidden;
+}
+
+#addEventDiv {
+    padding-top: 20px;
+    width: 20%;
+    height: 200px;
+    position: absolute;
+    visibility: hidden;
+}
+
+#editEventDiv {
+    padding-top: 20px;
+    width: 20%;
+    height: 200px;
+    position: absolute;
+    visibility: hidden;
+}
+
+.prev_month_btn {
+    padding: 15px 18px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+    .prev_month_btn:hover {
+        background-color: #FAFAD2;
+    }
+
+
+.next_month_btn {
+    padding: 15px 18px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+    .next_month_btn:hover {
+        background-color: #FAFAD2;
+    }
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+tr.weekNames {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #FAFAD2;
+}
+
+td.weekName {
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    height: 50px;
+    width: 150px;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    height: 50px;
+}
+
+th {
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    background-color: #FAFAD2;
+}
+
+p.monthName {
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: white;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin-top: 5px;
+    border: 2px solid green;
+    border-radius: 20px;
+}
+
+    input[type="submit"]:hover {
+        background-color: yellow;
+        border-color: white;
+        color: black;
+        border: 2px solid green;
+        border-radius: 20px;
+    }
+
